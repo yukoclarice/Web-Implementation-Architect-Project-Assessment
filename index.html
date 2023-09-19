@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Implementation Architect Assessment
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section id="main-parent-grid">
+        <div id="nav" class="main-parent-div">
+            <div class="nav-items">
+                <input type="text" id="search-text-input" name="Search">
+                <button id="search-btn">SEARCH</button>
+            </div>
+            <div class="nav-items">
+                <select name="cars" id="search-dropdown-input">
+                    <option value="volvo">United States of America</option>
+                    <option value="saab">Mexico</option>
+                    <option value="opel">Canada</option>
+                    <option value="audi">Germany</option>
+                </select>
+                <button class="fa-solid fa-filter" id="filter-btn"></button>
+            </div>
+            <div class="mobile-only">
+                <button id="list-view">List View</button>
+                <button id="map-view">Map View</button>
+            </div>
+            <div id="nav-items-result-container">
+                <div class="top-div">There are 10 locations near you</div>
+                <div class="nav-items-result">
+                    <div class="nav-items-result-div1">
+                        <i class="fa-solid fa-location-pin location-icon nav-items-result-div1"></i>
+                        <p>Open until</p>
+                        <p class="location-time">10pm</p>
+                    </div>
+                    <div class="nav-items-result-div2">
+                        <img class="nav-line" src="/img/v-rule-blue.png" alt="">
+                    </div>
+                    <div class="nav-items-result-div3">
+                        <h3>The Shop</h3>
+                        <P class="address">3433 SEPULVEDA BLVD TORRANCE. CA 90505</P>
+                        <i class="fa-solid fa-phone"></i>
+                        <P class="phone-number">(214)826-0331</P>
+                        <button class="get-directions-btn">GET DIRECTIONS</button>
+                    </div>
+                    <div class="nav-items-result-div4"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <div class="nav-items-result">
+                    <div class="nav-items-result-div1">
+                        <i class="fa-solid fa-location-pin location-icon nav-items-result-div1"></i>
+                        <p>Open until</p>
+                        <p class="location-time">10pm</p>
+                    </div>
+                    <div class="nav-items-result-div2">
+                        <img class="nav-line" src="/img/v-rule-blue.png" alt="">
+                    </div>
+                    <div class="nav-items-result-div3">
+                        <h3>The Shop</h3>
+                        <P class="address">3433 SEPULVEDA BLVD TORRANCE. CA 90505</P>
+                        <i class="fa-solid fa-phone"></i>
+                        <P class="phone-number">(214)826-0331</P>
+                        <button class="get-directions-btn">GET DIRECTIONS</button>
+                    </div>
+                    <div class="nav-items-result-div4"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <div class="nav-items-result">
+                    <div class="nav-items-result-div1">
+                        <i class="fa-solid fa-location-pin location-icon nav-items-result-div1"></i>
+                        <p>Open until</p>
+                        <p class="location-time">10pm</p>
+                    </div>
+                    <div class="nav-items-result-div2">
+                        <img class="nav-line" src="/img/v-rule-blue.png" alt="">
+                    </div>
+                    <div class="nav-items-result-div3">
+                        <h3>The Shop</h3>
+                        <P class="address">3433 SEPULVEDA BLVD TORRANCE. CA 90505</P>
+                        <i class="fa-solid fa-phone"></i>
+                        <P class="phone-number">(214)826-0331</P>
+                        <button class="get-directions-btn">GET DIRECTIONS</button>
+                    </div>
+                    <div class="nav-items-result-div4"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <div class="nav-items-result">
+                    <div class="nav-items-result-div1">
+                        <i class="fa-solid fa-location-pin location-icon nav-items-result-div1"></i>
+                        <p>Open until</p>
+                        <p class="location-time">10pm</p>
+                    </div>
+                    <div class="nav-items-result-div2">
+                        <img class="nav-line" src="/img/v-rule-blue.png" alt="">
+                    </div>
+                    <div class="nav-items-result-div3">
+                        <h3>The Shop</h3>
+                        <P class="address">3433 SEPULVEDA BLVD TORRANCE. CA 90505</P>
+                        <i class="fa-solid fa-phone"></i>
+                        <P class="phone-number">(214)826-0331</P>
+                        <button class="get-directions-btn">GET DIRECTIONS</button>
+                    </div>
+                    <div class="nav-items-result-div4"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <div class="nav-items-result">
+                    <div class="nav-items-result-div1">
+                        <i class="fa-solid fa-location-pin location-icon nav-items-result-div1"></i>
+                        <p>Open until</p>
+                        <p class="location-time">10pm</p>
+                    </div>
+                    <div class="nav-items-result-div2">
+                        <img class="nav-line" src="/img/v-rule-blue.png" alt="">
+                    </div>
+                    <div class="nav-items-result-div3">
+                        <h3>The Shop</h3>
+                        <P class="address">3433 SEPULVEDA BLVD TORRANCE. CA 90505</P>
+                        <i class="fa-solid fa-phone"></i>
+                        <P class="phone-number">(214)826-0331</P>
+                        <button class="get-directions-btn">GET DIRECTIONS</button>
+                    </div>
+                    <div class="nav-items-result-div4"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <div class="nav-items-result">
+                    <div class="nav-items-result-div1">
+                        <i class="fa-solid fa-location-pin location-icon nav-items-result-div1"></i>
+                        <p>Open until</p>
+                        <p class="location-time">10pm</p>
+                    </div>
+                    <div class="nav-items-result-div2">
+                        <img class="nav-line" src="/img/v-rule-blue.png" alt="">
+                    </div>
+                    <div class="nav-items-result-div3">
+                        <h3>The Shop</h3>
+                        <P class="address">3433 SEPULVEDA BLVD TORRANCE. CA 90505</P>
+                        <i class="fa-solid fa-phone"></i>
+                        <P class="phone-number">(214)826-0331</P>
+                        <button class="get-directions-btn">GET DIRECTIONS</button>
+                    </div>
+                    <div class="nav-items-result-div4"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <div class="nav-items-result">
+                    <div class="nav-items-result-div1">
+                        <i class="fa-solid fa-location-pin location-icon nav-items-result-div1"></i>
+                        <p>Open until</p>
+                        <p class="location-time">10pm</p>
+                    </div>
+                    <div class="nav-items-result-div2">
+                        <img class="nav-line" src="/img/v-rule-blue.png" alt="">
+                    </div>
+                    <div class="nav-items-result-div3">
+                        <h3>The Shop</h3>
+                        <P class="address">3433 SEPULVEDA BLVD TORRANCE. CA 90505</P>
+                        <i class="fa-solid fa-phone"></i>
+                        <P class="phone-number">(214)826-0331</P>
+                        <button class="get-directions-btn">GET DIRECTIONS</button>
+                    </div>
+                    <div class="nav-items-result-div4"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <div class="nav-items-result">
+                    <div class="nav-items-result-div1">
+                        <i class="fa-solid fa-location-pin location-icon nav-items-result-div1"></i>
+                        <p>Open until</p>
+                        <p class="location-time">10pm</p>
+                    </div>
+                    <div class="nav-items-result-div2">
+                        <img class="nav-line" src="/img/v-rule-blue.png" alt="">
+                    </div>
+                    <div class="nav-items-result-div3">
+                        <h3>The Shop</h3>
+                        <P class="address">3433 SEPULVEDA BLVD TORRANCE. CA 90505</P>
+                        <i class="fa-solid fa-phone"></i>
+                        <P class="phone-number">(214)826-0331</P>
+                        <button class="get-directions-btn">GET DIRECTIONS</button>
+                    </div>
+                    <div class="nav-items-result-div4"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <div class="nav-items-result">
+                    <div class="nav-items-result-div1">
+                        <i class="fa-solid fa-location-pin location-icon nav-items-result-div1"></i>
+                        <p>Open until</p>
+                        <p class="location-time">10pm</p>
+                    </div>
+                    <div class="nav-items-result-div2">
+                        <img class="nav-line" src="/img/v-rule-blue.png" alt="">
+                    </div>
+                    <div class="nav-items-result-div3">
+                        <h3>The Shop</h3>
+                        <P class="address">3433 SEPULVEDA BLVD TORRANCE. CA 90505</P>
+                        <i class="fa-solid fa-phone"></i>
+                        <P class="phone-number">(214)826-0331</P>
+                        <button class="get-directions-btn">GET DIRECTIONS</button>
+                    </div>
+                    <div class="nav-items-result-div4"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <div class="nav-items-result">
+                    <div class="nav-items-result-div1">
+                        <i class="fa-solid fa-location-pin location-icon nav-items-result-div1"></i>
+                        <p>Open until</p>
+                        <p class="location-time">10pm</p>
+                    </div>
+                    <div class="nav-items-result-div2">
+                        <img class="nav-line" src="/img/v-rule-blue.png" alt="">
+                    </div>
+                    <div class="nav-items-result-div3">
+                        <h3>The Shop</h3>
+                        <P class="address">3433 SEPULVEDA BLVD TORRANCE. CA 90505</P>
+                        <i class="fa-solid fa-phone"></i>
+                        <P class="phone-number">(214)826-0331</P>
+                        <button class="get-directions-btn">GET DIRECTIONS</button>
+                    </div>
+                    <div class="nav-items-result-div4"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+            </div>
+
+            <div id="nav-items-result-container-filter">
+                <div class="top-div-filter">Filter</div>
+                <ul class="nav-items-result-filter">
+                    <li>
+                        <div class="nav-items-result-div1-filter">
+                            <i class="fa-solid fa-bag-shopping filter-icon"></i>
+                        </div>
+                        <div class="nav-items-result-div3-filter">
+                            <P>Retail</P>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-items-result-div1-filter">
+                            <i class="fa-regular fa-building filter-icon"></i>
+                        </div>
+                        <div class="nav-items-result-div3-filter">
+                            <P>Outlet</P>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-items-result-div1-filter">
+                            <i class="fa-solid fa-industry filter-icon"></i>
+                        </div>
+                        <div class="nav-items-result-div3-filter">
+                            <P>Factory</P>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-items-result-div1-filter">
+                            <i class="fa-solid fa-bullhorn filter-icon"></i>
+                        </div>
+                        <div class="nav-items-result-div3-filter">
+                            <P>Promotion</P>
+                        </div>
+                    </li>
+                </ul>
+                <button class="close-filter-btn" onclick="closeFilterButton()">CLOSE FILTERS</button>
+            </div>
+
+            <div id="nav-items-result-container-map">
+                <!-- <div id="map-mobile"></div> -->
+            </div>
+        </div>
+        <div id="map" class="main-parent-div"></div>
+    </section>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/627382c66a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
